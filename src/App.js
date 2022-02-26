@@ -1,10 +1,13 @@
 import './App.css';
 import Header from './components/header.jsx';
-
+import Features from './components/features';
 function App() {
 	return (
-		<Header></Header>
-	)
+		<div>
+			<Header></Header>
+			<Features></Features>
+		</div>
+	);
 }
 
 export default App;
