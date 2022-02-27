@@ -3,7 +3,7 @@ import Header from './components/header.jsx';
 import Features from './components/features';
 import Carousel from './components/clientCarousel';
 import Footer from './components/footer';
-
+import Info from './components/info';
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
 			<Header></Header>
 			<Carousel></Carousel>
 			<Features></Features>
+			<Info></Info>
 			<Footer></Footer>
 		</div>
 	);

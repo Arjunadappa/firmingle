@@ -23,32 +23,32 @@ return (
             <div className='text-left font-bold text-xl mt-10 px-4'>
             Company
             <div className='py-10 mb-4 text-base font-normal text-neutral-600'>
-            <div className='mb-4 hover:text-orange-700'><a href="#">About Us</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Career</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Privacy Policy</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Contact Us</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Blogs</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">About Us</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Career</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Privacy Policy</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Contact Us</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Blogs</a></div>
              </div>
             </div>
 
              <div className='text-left font-bold text-xl mt-10 px-12'>
             Services
             <div className='py-10 mb-4 text-base font-normal text-neutral-600'>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Firmingle Deck</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Financial Model</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Valuation</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Business Plan</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Accelerate X</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Firmingle Deck</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Financial Model</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Valuation</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Business Plan</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Accelerate X</a></div>
              </div>
             </div>
 
             <div className='text-left font-bold text-xl mt-10 px-10'>
             Additional Services
             <div className='py-10 mb-4 text-base font-normal text-neutral-600 '>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Presentation Design</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Digital Marketing</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Branding</a></div>
-            <div className='mb-4 hover:text-orange-700'><a href="#">Videos</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Presentation Design</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Digital Marketing</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Branding</a></div>
+            <div className='mb-4 hover:text-[#FF8555]'><a href="#">Videos</a></div>
              </div>
             </div>
 
@@ -57,7 +57,7 @@ return (
             <div className="basis-1/4 mt-10 pl-4">
                 <div className="flex">
                     <MailIcon className='h-7 w-5'></MailIcon>
-                    <a href="admin@firmingle.com" className='ml-3 hover:text-orange-700'>admin@firmingle.com</a>
+                    <a href="admin@firmingle.com" className='ml-3 hover:text-[#FF8555]'>admin@firmingle.com</a>
                 </div>
             </div>
     </div>
