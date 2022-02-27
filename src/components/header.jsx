@@ -37,7 +37,7 @@ function Header() {
 											<span className="sr-only">Workflow</span>
 											<img
 												className="h-8 w-auto sm:h-10"
-												src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+												src={logo}
 											/>
 										</a>
 										<div className="-mr-2 flex items-center md:hidden">
@@ -117,7 +117,7 @@ function Header() {
 						<div className="sm:text-center lg:text-left">
 							<h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
 								<span className="block xl:inline">Data to enrich your</span>{' '}
-								<span className="block text-indigo-600 xl:inline">
+								<span className="block text-[#FF8555] xl:inline">
 									online business
 								</span>
 							</h1>
@@ -130,7 +130,7 @@ function Header() {
 								<div className="rounded-md shadow">
 									<a
 										href="#"
-										className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+										className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#FF8555] hover:bg-[#ff9a70] md:py-4 md:text-lg md:px-10"
 									>
 										Get started
 									</a>
@@ -138,7 +138,7 @@ function Header() {
 								<div className="mt-3 sm:mt-0 sm:ml-3">
 									<a
 										href="#"
-										className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+										className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#ffae8c] hover:bg-[#ffc3a8] md:py-4 md:text-lg md:px-10"
 									>
 										Live demo
 									</a>
