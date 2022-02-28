@@ -1,6 +1,8 @@
 import {Swiper,SwiperSlide} from 'swiper/react';
 import 'swiper/css';
-import {Autoplay} from 'swiper';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import {Autoplay,Navigation,Pagination} from 'swiper';
 import TestimonialBox from './testimonialBox';
 import Display from '../logos/display-1.jpeg'
 
@@ -11,9 +13,16 @@ function testimonials(){
     }];
     return(
         <>
+         <div className='flex justify-center mt-10 pt-6 text-5xl'><h1>What our clients say about us</h1></div>
         <Swiper
         slidesPerView={1}
         spaceBetween={10}
+        speed={1500}
+        loop={true}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        navigation={true}
         autoplay={{
             delay:2500,
             disableOnInteraction:false,
@@ -32,9 +41,11 @@ function testimonials(){
                 spaceBetween:50,
             },
         }}
-        modules={[Autoplay]}
-				className=" MySwiper mt-20 mb-20"
+
+        modules={[Autoplay , Pagination ,Navigation]}
+				className=" MySwiper mt-10 mb-20"
         >
+           
             <SwiperSlide>
                 <TestimonialBox Display={testimonialData[0].DisplayImage} data={testimonialData[0].Data}>
                 </TestimonialBox>

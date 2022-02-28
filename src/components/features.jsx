@@ -8,7 +8,7 @@ function Features() {
 				</h2>
 			</div>
 			<div className="mx-auto max-w-5xl flex flex-wrap justify-center gap-x-20 gap-y-10">
-				<div className=" p-8 flex flex-col  basis-2/5 items-center border-cyan-500 border-2 rounded-md">
+				<div className=" p-8 flex flex-col  basis-2/5 items-center border-[#FF8555] border-2 rounded-md">
 					<DesktopComputerIcon className="h-10 w-10 mb-5"></DesktopComputerIcon>
 					<h5 className="pb-8 text-xl font-semibold">Pitch Deck</h5>
 					<p className="text-center">
@@ -18,7 +18,7 @@ function Features() {
 						influential
 					</p>
 				</div>
-				<div className=" p-8 flex flex-col  basis-2/5 items-center border-cyan-500 border-2 rounded-md">
+				<div className=" p-8 flex flex-col  basis-2/5 items-center border-[#FF8555] border-2 rounded-md">
 					<PresentationChartLineIcon className="h-10 w-10 mb-5"></PresentationChartLineIcon>
 					<h5 className="pb-8 text-xl font-semibold">Financial Model</h5>
 					<p className="text-center">
@@ -28,7 +28,7 @@ function Features() {
 						influential
 					</p>
 				</div>
-				<div className=" p-8 flex flex-col  basis-2/5 items-center border-cyan-500 border-2 rounded-md">
+				<div className=" p-8 flex flex-col  basis-2/5 items-center border-[#FF8555] border-2 rounded-md">
 					<CurrencyDollarIcon className="h-10 w-10 mb-5"></CurrencyDollarIcon>
 					<h5 className="pb-8 text-xl font-semibold">Valuation</h5>
 					<p className="text-center">
@@ -38,7 +38,7 @@ function Features() {
 						influential
 					</p>
 				</div>
-				<div className=" p-8 flex flex-col  basis-2/5 items-center border-cyan-500 border-2 rounded-md">
+				<div className=" p-8 flex flex-col  basis-2/5 items-center border-[#FF8555] border-2 rounded-md">
 					<DesktopComputerIcon className="h-10 w-10 mb-5"></DesktopComputerIcon>
 					<h5 className="pb-8 text-xl font-semibold">Business Plan</h5>
 					<p className="text-center">

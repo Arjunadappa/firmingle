@@ -1,12 +1,12 @@
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import googleLogo from '../google.png';
 import microsoftLogo from '../microsoft.png';
 import amazonLogo from '../amazon.png';
-import 'swiper/css';
-
 
 import { Autoplay} from 'swiper';
+
 
 export default function Carousel() {
 	return (
@@ -32,35 +32,36 @@ export default function Carousel() {
 						spaceBetween: 50,
 					},
 				}}
+				
 				modules={[Autoplay]}
 				className="mySwiper mt-20 mx-50 max-w-6xl"
 			>
 				<SwiperSlide>
-					<img src={microsoftLogo}></img>
+					<img src={microsoftLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={googleLogo}></img>
+					<img src={googleLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={amazonLogo}></img>
+					<img src={amazonLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={microsoftLogo}></img>
+					<img src={microsoftLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={microsoftLogo}></img>
+					<img src={microsoftLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={amazonLogo}></img>
+					<img src={amazonLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={googleLogo}></img>
+					<img src={googleLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={microsoftLogo}></img>
+					<img src={microsoftLogo} alt=""></img>
 				</SwiperSlide>
 				<SwiperSlide>
-					<img src={microsoftLogo}></img>
+					<img src={microsoftLogo} alt=""></img>
 				</SwiperSlide>
 			</Swiper>
 		</>
