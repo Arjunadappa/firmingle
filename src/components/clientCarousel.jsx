@@ -33,7 +33,7 @@ export default function Carousel() {
 					},
 				}}
 				modules={[Autoplay]}
-				className="mySwiper mt-20 mx-auto max-w-6xl"
+				className="mySwiper mt-20 mx-50 max-w-6xl"
 			>
 				<SwiperSlide>
 					<img src={microsoftLogo}></img>
