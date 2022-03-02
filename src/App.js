@@ -5,6 +5,7 @@ import Carousel from './components/clientCarousel';
 import Footer from './components/footer';
 import Info from './components/info';
 import Testimonials from './components/testimonials';
+import FormPage from './components/formPage';
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
 			<Carousel></Carousel>
 			<Features></Features>
 			<Info></Info>
+			<FormPage></FormPage>
 			<Testimonials></Testimonials>
 			<Footer></Footer>
 		</div>
