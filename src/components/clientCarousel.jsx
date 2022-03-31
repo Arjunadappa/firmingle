@@ -7,7 +7,6 @@ import amazonLogo from '../amazon.png';
 
 import { Autoplay} from 'swiper';
 
-
 export default function Carousel() {
 	return (
 		<>

@@ -11,6 +11,7 @@ function testimonials(){
         DisplayImage:Display,
         Data:"We reached out to them for our Firmingle deck with little info as we're still a new startup. They guided us well in identifying our high's and low's.Their team's cooperative efforts are a total delight. Looking forward to working on many more projects"
     }];
+    
     return(
         <>
          <div className='flex justify-center mt-10 pt-6 text-5xl'><h1>What our clients say about us</h1></div>

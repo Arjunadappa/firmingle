@@ -4,10 +4,10 @@ import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const navigation = [
-	{ name: 'Home', href: '#' },
-	{ name: 'About', href: '#' },
-	{ name: 'Services', href: '#' },
-	{ name: 'Contact Us', href: '#' },
+	{ name: 'Home', href: '/' },
+	{ name: 'About', href: '/aboutUs' },
+	{ name: 'Services', href: '/Services' },
+	{ name: 'Contact Us', href: '/ContactUs' },
 ];
 
 function Header() {

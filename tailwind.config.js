@@ -1,10 +1,15 @@
+const { defaultTheme } = require("react-select");
+
 module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		extend: {
-			Colors:{
-				firmingleOrange:'FF8555',
-			}
+			colors:{
+				firmingleOrange:'#FF8555',
+			},
+			fontFamily:{
+				'Nunito':'Nunito Sans',
+			},
 		},
 	},
 	plugins: [],
