@@ -1,7 +1,7 @@
 import logo from '../logo.jpeg';
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { MenuIcon, XIcon } from '@heroicons/react/outline'; 
 
 const navigation = [
 	{ name: 'Home', href: '/' },
@@ -80,7 +80,7 @@ function Header() {
 										<div>
 											<img
 												className="h-8 w-auto"
-												src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+												src={logo}
 												alt=""
 											/>
 										</div>
@@ -122,9 +122,7 @@ function Header() {
 								</span>
 							</h1>
 							<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-								Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-								lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-								fugiat aliqua.
+							With over $25M raised by our clients, we help you with the perfect investing collateral. Our experts know exactly what it takes to grab investors attention and present your compelling story.
 							</p>
 							<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 								<div className="rounded-md shadow">
